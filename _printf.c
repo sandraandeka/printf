@@ -73,7 +73,7 @@ int _printf(const char *format, ...)
 				f = check_specifiers(&format[i + 1]);
 				if (f == NULL)
 					return (-1);
-				1 += 2;
+				i += 2;
 				j += f(ap);
 				continue;
 			}

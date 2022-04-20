@@ -8,7 +8,7 @@
  */
 int print_i(va_list i)
 {
-	int a[0];
+	int a[10];
 	int j = 1, m = 1000000000, n, sum = 0, counter = 0;
 
 	n = va_arg(i, int);
