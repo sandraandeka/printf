@@ -1,0 +1,15 @@
+./" Manpage for _printf().
+.TH man "21 April 2022" "1.0" "_printf man page"
+.SH NAME
+printf()
+.SH SYNOPSIS
+#include "main.h"
+
+use the function with the specifiers (c,s,i,d, etc) after the %. If no identifier is present then the literal string.
+.SH DESCRIPTION
+The functions _printf() produce output according to a
+format specified. Write the output under the control of a format 
+string that specifies how subsequent arguments (or arguments accessed via the variable-lenght arguent facilities.
+Format of the format string
+The  format string is a character string, beginning and ebding in this initial shift state,
+if any. The format string is composed of zero or more subsequent arguments. Each conversion specification is introduced by the character % and ends with a conversion specifier.
